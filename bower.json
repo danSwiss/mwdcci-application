@@ -1,0 +1,64 @@
+{
+  "name": "library",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "daniel Swiss <dswiss@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/lib"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery.easing": "^1.3.1",
+    "wow": "^1.1.2",
+    "Ionicons": "ionicons#^2.0.1",
+    "jquery.bxslider": "*"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "less/font-awesome.less",
+        "css/font-awesome.min.css",
+        "scss/font-awesome.scss"
+      ]
+    },
+    "jquery.easing": {
+      "main": [
+        "js/jquery.easing.min.js"
+      ]
+    },
+    "wow": {
+      "main": [
+        "dist/wow.min.js"
+      ]
+    },
+    "Ionicons": {
+      "main": [
+        "css/ionicons.min.css"
+      ]
+    },
+    "jquery.bxslider":{
+        "main":[
+            "js/jquery.bxslider.js",
+            "js/jquery.jcarousel.min.js",
+            "skins/jquery.bxslider.css"
+        ]
+    }
+  }
+}

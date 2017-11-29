@@ -45,7 +45,7 @@
     },
     "wow": {
       "main": [
-        "dist/wow.min.js"
+        "dist/wow.js"
       ]
     },
     "Ionicons": {

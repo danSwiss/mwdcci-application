@@ -1,6 +1,6 @@
 var $ = jQuery.noConflict();
 $(document).ready(function ($) {
-    "use strict";
+    'use strict';
 
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -9,7 +9,7 @@ $(document).ready(function ($) {
 
     $('#topNav').affix({
         offset: {
-            top: 200
+            top: 100
         }
     });
 
@@ -31,13 +31,17 @@ $(document).ready(function ($) {
     $('#galleryModal').on('show.bs.modal', function (e) {
         $('#galleryImage').attr("src", $(e.relatedTarget).data("src"));
     });
+
+   $('.carousel').carousel({
+      interval: 6000
+    })
     /* ---------------------------------------------------------------------- */
     /*	Contact Map
     /* ---------------------------------------------------------------------- */
     var contact = {
         "lat": "39.136209",
         "lon": "-94.578629"
-    }; //Change a map coordinate here! 
+    }; //Change a map coordinate here!
 
     try {
         var mapContainer = $('.map');
